@@ -1,0 +1,58 @@
+.areaSubtitle,
+.areaTitle {
+  align-self: stretch;
+  position: relative;
+}
+.areaTitle {
+  line-height: 48px;
+  font-weight: 600;
+}
+.areaSubtitle {
+  font-size: 20px;
+  line-height: 28px;
+  color: #889099;
+}
+.areaLabels,
+.propertiesRow {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.areaLabels {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 30px;
+  box-sizing: border-box;
+  gap: 24px;
+  max-width: 95%;
+}
+.propertiesRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 86px;
+  font-size: 24px;
+  color: #363a3d;
+}
+.areaContent,
+.propertiesByAreaFeatureCar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.areaContent {
+  padding: 75px 0 0;
+  box-sizing: border-box;
+  gap: 54px;
+  max-width: 95%;
+}
+.propertiesByAreaFeatureCar {
+  background-color: #edeff6;
+  padding: 70px 0;
+  text-align: center;
+  font-size: 40px;
+  color: #1e2640;
+  font-family: Inter;
+}

@@ -1,0 +1,123 @@
+.houselineIcon {
+  width: 44px;
+  position: relative;
+  height: 44px;
+}
+.realState,
+.reis {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.realState {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.logo,
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.home,
+.properties {
+  position: relative;
+  line-height: 22px;
+}
+.properties {
+  font-weight: 600;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.hamburgerMenuIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hamburger {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navigationRight {
+  justify-content: flex-end;
+  gap: 36px;
+  font-size: 14px;
+  color: #0f1320;
+}
+.navigationRight,
+.topContainer,
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.topContainer {
+  flex: 1;
+  justify-content: space-between;
+}
+.topHeader {
+  align-self: stretch;
+  height: 98px;
+  background-color: #fff;
+  justify-content: center;
+  padding: 22px 80px;
+  box-sizing: border-box;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+  text-align: center;
+  font-size: 24px;
+  color: #4a60a1;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .navigation {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .topHeader {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hamburgerMenuIcon {
+    display: flex;
+  }
+  .topHeader {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigationRight {
+    display: flex;
+  }
+}

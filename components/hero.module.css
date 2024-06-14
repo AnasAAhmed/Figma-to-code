@@ -1,0 +1,209 @@
+.findYourDream {
+  align-self: stretch;
+  position: relative;
+  line-height: 72px;
+  font-weight: 600;
+}
+.vestibulumAnteIpsum {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Inter;
+  color: #edeff6;
+}
+.rent,
+.text {
+  display: flex;
+  justify-content: flex-start;
+}
+.text {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.rent {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #4a60a1;
+  border-radius: 4px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.sale1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #6e80b4;
+  text-align: center;
+}
+.sale,
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sale {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.tabs {
+  gap: 10px;
+}
+.locations1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.locations {
+  width: 137px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: center;
+}
+.propertyType1 {
+  width: 150px;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+}
+.dropdownlink {
+  align-self: stretch;
+}
+.propertyType,
+.rentRange {
+  width: 177px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.rentRange {
+  width: 155px;
+}
+.search {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+}
+.searchCta {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #4a60a1;
+  width: 102px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.searchCta:hover {
+  background-color: #2b3a67;
+}
+.formcontainer,
+.formwrapper,
+.searchCta {
+  display: flex;
+  flex-direction: row;
+}
+.formcontainer {
+  width: 1400px;
+  border-radius: 8px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 62px;
+  box-sizing: border-box;
+  max-width: 1400px;
+}
+.formwrapper {
+  align-self: stretch;
+  flex-wrap: wrap;
+  /* margin:0  200px; */
+  align-items: center;
+  justify-content: center;
+}
+.rentsale {
+  justify-content: flex-start;
+  gap: 17px;
+  text-align: left;
+  font-size: 16px;
+  color: #2c3a61;
+  font-family: Inter;
+}
+.heroSection,
+.heroSectionContents,
+.rentsale {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heroSectionContents {
+  justify-content: center;
+  gap: 62px;
+  max-width: 95%;
+}
+.heroSection {
+  justify-content: flex-start;
+  padding: 120px 30px;
+  background-image: url(/hero-section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 52px;
+  color: #fff;
+  font-family: "Public Sans";
+}
+@media screen and (max-width: 960px) {
+  .text {
+    max-width: 100%;
+  }
+  .searchCta {
+    width: 100%;
+  }
+  .searchCta:hover {
+    align-items: center;
+    justify-content: center;
+  }
+  .formcontainer {
+    width: 300px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  .searchCta,
+  .searchCta:hover {
+    align-self: stretch;
+    width: auto;
+    max-width: 100%;
+  }
+}

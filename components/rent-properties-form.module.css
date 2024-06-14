@@ -1,0 +1,96 @@
+.latestPropertiesOf {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+  font-weight: 600;
+}
+.vestibulumAnteIpsum {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  color: #889099;
+}
+.text {
+  width: 688px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 95%;
+}
+.cardRow,
+.contents {
+  align-self: stretch;
+  display: flex;
+  gap: 40px;
+}
+.cardRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+.contents {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 95%;
+}
+.loadMoreListing {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+}
+.cta,
+.latestPropertiesOfRentCard {
+  display: flex;
+  justify-content: flex-start;
+}
+.cta {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #4a60a1;
+  border-radius: 4px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cta:hover {
+  background-color: #3c6af6;
+}
+.latestPropertiesOfRentCard {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 86px 0;
+  gap: 39px;
+  text-align: center;
+  font-size: 40px;
+  color: #1e2640;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .text {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .text {
+    align-self: stretch;
+    width: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cta {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,163 @@
+.properties1 {
+  /* position: relative; */
+  line-height: 72px;
+  font-weight: 600;
+}
+.properties2 {
+  font-weight: 500;
+  color: #fff;
+}
+.homePropertiesContainer {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7e9eb;
+  font-family: Inter;
+}
+.category,
+.properties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.properties {
+  justify-content: flex-start;
+  gap: 12px;
+}
+.category {
+  align-self: stretch;
+  height: 240px;
+  justify-content: center;
+  background-image: url(/category@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.listbulletsIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.text {
+  position: relative;
+  line-height: 24px;
+}
+.sortBy {
+  align-items: flex-end;
+  gap: 16px;
+}
+.backArrow,
+.container,
+.sortBy {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container {
+  width: 272px;
+  align-items: center;
+}
+.backArrow {
+  border-radius: 4px;
+  background-color: #edeff6;
+  align-items: flex-start;
+  padding: 10px;
+}
+.div1 {
+  width: 26px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.div,
+.div2 {
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 9px;
+}
+.div {
+  background-color: #4a60a1;
+  color: #fff;
+}
+.div2 {
+  background-color: #edeff6;
+}
+.forwardArrow,
+.pagination {
+  display: flex;
+  flex-direction: row;
+}
+.forwardArrow {
+  border-radius: 4px;
+  background-color: #4a60a1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.pagination {
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  color: #4a60a1;
+}
+.contents,
+.propertiesGridView {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contents {
+  align-self: stretch;
+  align-items: center;
+  padding: 64px 0 8px;
+  gap: 95px;
+  text-align: left;
+  font-size: 16px;
+  color: #1b1d1f;
+  font-family: Inter;
+}
+.propertiesGridView {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 52px;
+  color: #fff;
+  font-family: "Public Sans";
+}
+@media screen and (max-width: 1200px) {
+  .contents {
+    padding-left: 120px;
+    padding-right: 120px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .contents {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contents {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

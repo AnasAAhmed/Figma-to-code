@@ -1,0 +1,144 @@
+.propertyImageIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 200px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.alliumPlaceOrlando {
+  flex: 1;
+  position: relative;
+  line-height: 20.32px;
+  font-weight: 500;
+}
+.propertyName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.div {
+  position: relative;
+  line-height: 18.98px;
+  font-weight: 600;
+}
+.price {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: 13.6px;
+  color: #4a60a1;
+}
+.carIcon {
+  width: 17.4px;
+  position: relative;
+  height: 17.4px;
+}
+.parking {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4.4px;
+}
+.ft {
+  position: relative;
+  line-height: 16.27px;
+  font-weight: 500;
+}
+.moreDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 10px;
+  gap: 17px;
+  font-size: 10.8px;
+  color: #6d737a;
+}
+.userChild {
+  width: 27.6px;
+  position: relative;
+  border-radius: 50%;
+  height: 27.6px;
+  object-fit: cover;
+}
+.jennyWilson {
+  position: relative;
+  line-height: 17.42px;
+  font-weight: 500;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.8px;
+}
+.sharenetworkIcon {
+  width: 14.5px;
+  position: relative;
+  height: 14.5px;
+}
+.share {
+  border-radius: 1.45px;
+  background-color: #edeff6;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.9px;
+}
+.container,
+.ctas,
+.share {
+  display: flex;
+  flex-direction: row;
+}
+.ctas {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8.7px;
+}
+.container {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 11.6px;
+}
+.card1 {
+  height: 467px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 13px;
+  gap: 23px;
+  text-align: left;
+  font-size: 14.5px;
+  color: #363a3d;
+  font-family: Inter;
+}
+.card1:hover {
+  background-color: rgba(226, 226, 226, 0.1);
+  cursor: pointer;
+}
+@media screen and (max-width: 420px) {
+  .card1 {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+}

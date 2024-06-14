@@ -1,0 +1,218 @@
+.houselineIcon {
+  width: 44px;
+  height: 44px;
+}
+
+.realState,
+.reis {
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.realState {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.logo,
+.reisParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.contactUs1 {
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #1b1d1f;
+}
+
+.praesentNullaMassa {
+  width: 312px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.emailExamplemailcom {
+  position: relative;
+  line-height: 24px;
+  color: #363a3d;
+}
+
+.contactDetails {
+  align-self: stretch;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  text-align: left;
+  font-size: 16px;
+  color: #6d737a;
+  font-family: "Public Sans";
+}
+
+.socialMediaLogo {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+
+.socialMediaCard {
+  border-radius: 4px;
+  background-color: #edeff6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+
+.socialMediaLogo1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.contactUs,
+.socialMedia {
+  width: 304px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactUs {
+  width: 312px;
+  /* height: 300px; */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: center;
+  color: #4a60a1;
+  font-family: Inter;
+}
+
+.home {
+  /* position: relative; */
+  cursor: pointer;
+  line-height: 24px;
+}
+
+.features,
+.featuresSubCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.featuresSubCategories {
+  align-self: stretch;
+  height: 184px;
+  gap: 16px;
+  font-size: 16px;
+  color: #6d737a;
+}
+
+.features {
+  width: 173px;
+  height: 248px;
+  gap: 32px;
+}
+
+.teamAndPolicies {
+  /* position: relative; */
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.termsAndPolicies,
+.termsAndPoliciesSubcategori {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.termsAndPoliciesSubcategori {
+  align-self: stretch;
+  height: 104px;
+  gap: 16px;
+  font-size: 16px;
+  color: #6d737a;
+}
+
+.termsAndPolicies {
+  width: 203px;
+  height: 168px;
+  gap: 32px;
+}
+
+.footer,
+.footerSection {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.footer {
+  flex: 1;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 24px;
+  color: #1b1d1f;
+  font-family: "Public Sans";
+}
+
+.footerSection {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .footer {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footerSection {
+    width: auto;
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer {
+    gap: 50px;
+  }
+  .socialMedia {
+    width: 100px;
+  }
+  .footer,
+  .footerSection {
+    flex-direction: column;
+  }
+}
