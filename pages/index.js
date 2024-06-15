@@ -11,14 +11,14 @@
 const LandingPage = () => {
   return (
     <div className={styles.landingPage}>
-        <Header />
+        {/* <Header /> */}
         <Hero />
         <AreaPropertyContainer />
         <InfoPropertyContainer />
         <RentPropertiesContainer />
         <RentPropertiesForm />
         <ContactContainer />
-        <Footer propOverflow="unset" />
+        <Footer />
     </div>
   );
 };

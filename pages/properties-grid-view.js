@@ -1,5 +1,4 @@
 
-import Header from "../components/header";
 // import { createClient } from "@supabase/supabase-js";
 import PropertyGridContainer from "../components/property-grid-container";
 import Footer from "../components/footer";
@@ -53,7 +52,7 @@ const PropertiesGridView = () => {
   // }, [])
   return (
     <div className={styles.propertiesGridView}>
-      <Header />
+      {/* <Header /> */}
       <div className={styles.category}>
         <div className={styles.properties}>
           <div className={styles.properties1}>Properties</div>

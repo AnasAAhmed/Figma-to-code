@@ -110,7 +110,8 @@
 .pagination {
   align-items: flex-end;
   justify-content: center;
-  gap: 8px;
+  gap: 0px;
+  display: none;
   text-align: center;
   color: #4a60a1;
 }
@@ -132,6 +133,7 @@
 }
 .propertiesGridView {
   width: 100%;
+  /* align-self: stretch; */
   position: relative;
   background-color: #fff;
   align-items: flex-start;
