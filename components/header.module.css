@@ -4,7 +4,8 @@
   height: 44px;
 }
 
-.realState, .reis {
+.realState,
+.reis {
   position: relative;
   line-height: 24px;
   font-weight: 600;
@@ -16,7 +17,8 @@
   font-weight: 500;
 }
 
-.logo, .name {
+.logo,
+.name {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -30,15 +32,17 @@
   gap: 8px;
 }
 
-.home, .properties {
+.home,
+.properties {
   position: relative;
   line-height: 22px;
   text-decoration: none;
-color: black;
-font-weight: 900;
+  color: black;
+  font-weight: 900;
 }
-.home:hover{
-color: #4a60a1;
+
+.home:hover {
+  color: #4a60a1;
 }
 
 .properties {
@@ -60,7 +64,9 @@ color: #4a60a1;
   color: #0f1320;
 }
 
-.navigationRight, .topContainer, .topHeader {
+.navigationRight,
+.topContainer,
+.topHeader {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -70,23 +76,32 @@ color: #4a60a1;
   flex: 1;
   justify-content: space-between;
 }
+
 .hamburgerMenuIcon {
   height: 24px;
   width: 24px;
   position: relative;
   overflow: hidden;
+  z-index: 30;
   flex-shrink: 0;
 }
+
 
 .hamburger {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
+  z-index: 40;
   display: none;
   flex-direction: row;
   align-items: center;
+  transform:rotate(180deg);
   justify-content: center;
+  transition:all 0.3s;
+}
+.rotate{
+  transform: rotate(0deg);
 }
 
 .topHeader {
@@ -111,9 +126,11 @@ color: #4a60a1;
   .navigation {
     display: none;
   }
+
   .hamburger {
     display: flex;
   }
+
   .topHeader {
     padding-left: 40px;
     padding-right: 40px;
@@ -125,6 +142,7 @@ color: #4a60a1;
   .hamburgerMenuIcon {
     display: flex;
   }
+
   .topHeader {
     padding-left: 24px;
     padding-right: 24px;
@@ -138,31 +156,41 @@ color: #4a60a1;
   }
 }
 
-/* Mobile navigation container */
-.navMobContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  height: 100%;
-  background-color: #fff;
-  justify-content: center;
-  gap: 30px;
-  z-index: 3;
-  transition: transform 0.3s ease-in-out;
-}
 
 .navMob {
+  transition: all 0.5s;
+  transform: translateX(-200%);
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(241, 243, 255);
+  padding: 5vmax;
+  position: fixed;
+  top: 0%;
+  z-index: 30;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  background-color: #fff;
   justify-content: center;
-  gap:50px;
+  gap: 3rem;
+}
+
+.button {
+  border: 1px solid #16161698;
+  padding: 0.5rem 2rem;
+  background-color: #eeeeee;
+  cursor: pointer;
+  color: #16161698;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: 0.5s;
+
+
+}
+
+.button:hover {
+  background-color: #16161698;
+  color: white;
+
 }
 
 .navMobHeader {
@@ -182,3 +210,4 @@ color: #4a60a1;
 .menuClosed {
   transform: translateY(-120%);
 }
+
